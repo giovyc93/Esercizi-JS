@@ -18,3 +18,6 @@ const log = (value) => {
   console.log(value);
 }
 log(divide(subtract(multiply(sum(2, 4), sum(5, 2)), 2), 5));
+function f1 (a, b) {
+  return a + b;
+}
