@@ -4,8 +4,8 @@ class Person {
     this.lastName = lastName;
   }
 }
-class Developer extends Person{
-  constructor(firstName, lastName,role){
+class Developer extends Person {
+  constructor(firstName, lastName, role) {
     super(firstName, lastName);
     this.role = role;
   }
