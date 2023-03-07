@@ -4,7 +4,7 @@ const firstPromise = (isLogged) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         if (isLogged) {
-          const randomNumber = Math.floor(Math.random());
+          const randomNumber = Math.random();
           resolve(randomNumber);
         } else {
           reject('User is not logged in');

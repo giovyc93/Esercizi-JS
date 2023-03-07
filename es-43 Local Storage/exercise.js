@@ -5,9 +5,9 @@ const user = {
 };
 
 
-function saveUserToLocalStorage(user) {
+function userLocalStorage(user) {
   const userString = JSON.stringify(user);
   localStorage.setItem('user', userString);
 }
 
-saveUserToLocalStorage(user);
+userLocalStorage(user);

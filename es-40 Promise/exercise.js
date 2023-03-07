@@ -1,9 +1,9 @@
 const promise = new Promise((resolve, reject) => {
     const number = 15;
     if (number > 10) {
-      resolve('Number is greater than 10');
+      resolve('Maggiore');
     } else {
-      reject('Number is less than or equal to 10');
+      reject('Minore o uguale');
     }
   });
   
